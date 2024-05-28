@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Flex On Em' - Page D'informations</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <link href="styles.css" rel="stylesheet">
 </head>
 <body>
@@ -26,33 +27,35 @@
         <h2 class="Title">Mes Informations</h2>
         <p class="sub_title"><strong>Nom :</strong> BODJONA </p>
         <p class="sub_title"><strong>Prénom :</strong> KEVIN</p>
+        <p class="sub_title"><strong>Adresse Mail :</strong> kao.bodjona@std.heh.be </p>
     </section>
 
     <section class="galery_info_page" id="maquettes">
         <h2 class="Title">Mes Maquettes</h2>
-        <figure>
-            <img alt="Maquette 1" src="ressources/maquette1.jpg">
-            <figcaption>Maquette 1</figcaption>
-        </figure>
-        <figure>
-            <img alt="Maquette 2" src="ressources/maquette2.jpg">
-            <figcaption>Maquette 2</figcaption>
-        </figure>
-        <figure>
-            <img alt="Maquette 3" src="ressources/maquette3.jpg">
-            <figcaption>Maquette 3</figcaption>
-        </figure>
+        <div class="galery_home_page">
+            <div class="image-container">
+                <a href="ressources/Page_4/m1.jpg" target="_blank"><img alt="Maquette de projet"
+                                                                              src="ressources/Page_4/m1.jpg"></a>
+                <p>Première Maquette - Version Ordinateur</p>
+            </div>
+            <div class="image-container">
+                <a href="ressources/Page_4/m2.jpg" target="_blank"><img
+                        alt="Maquette de projet" src="ressources/Page_4/m2.jpg"></a>
+                <p>Suite de la Maquette - Version Ordinateur</p>
+            </div>
+            <div class="image-container">
+                <a href="ressources/Page_4/m3.jpg" target="_blank"><img
+                        alt="Maquette de projet" src="ressources/Page_4/m3.jpg"></a>
+                <p>Maquette - Version Mobile</p>
+            </div>
+        </div>
     </section>
+    <footer>
+        <div class="footer_bsk">
+            <p> 2024 Flex On Em'. Tous droits réservés.</p>
+        </div>
+    </footer>
 
-    <section class="Introduction" id="conclusion">
-        <h2>Conclusion</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce id ligula eget ipsum feugiat posuere eget a
-            neque. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Morbi dapibus
-            tempor eros venenatis aliquam. Curabitur feugiat, magna ac malesuada tincidunt, lacus lectus convallis leo,
-            eu interdum mi nibh a neque. Sed metus massa, viverra nec diam sed, porta interdum quam. Aliquam erat
-            volutpat. In consequat eros ex, vitae pretium lacus rhoncus sed. Mauris consectetur scelerisque varius.
-            Etiam sit amet urna vel nisl suscipit porttitor.</p>
-    </section>
 </main>
 </body>
 </html>
