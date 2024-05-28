@@ -1,3 +1,4 @@
+/* Importation des polices */
 @import url('https://fonts.googleapis.com/css2?family=Changa:wght@200..800&family=Lustria&family=Yantramanav:wght@100;300;400;500;700;900&display=swap');
 
 @keyframes bounce {
@@ -17,34 +18,35 @@
 }
 
 header {
-    text-align: center;
+    text-align: center; /* Centrer le contenu */
 }
 
 .logo-block-txt {
-    text-align: center;
+    text-align: center; /* Centrer le texte */
 }
 
 .logo-block-txt h1 {
-    font-family: 'Changa', sans-serif;
-    font-size: 2rem;
-    color: black;
-    border: 2px solid orange;
-    padding: 10px;
-    display: inline-block;
-    background-color: darkorange;
-    border-radius: 8px;
+    font-family: 'Changa', sans-serif; /* Police de la classe Title */
+    font-size: 2rem; /* Taille de la police */
+    color: black; /* Couleur du texte */
+    border: 2px solid orange; /* Contour orange */
+    padding: 10px; /* Espacement intérieur */
+    display: inline-block; /* Permet de définir une largeur pour le contour */
+    background-color: darkorange; /* Couleur intérieure noire */
+    border-radius: 8px; /* Bordure arrondie */
 }
 
 header h1.Title {
-    font-family: 'Changa', sans-serif;
-    font-size: 2rem;
-    color: black;
-    background-color: darkorange;
-    padding: 10px 20px;
-    border: 2px wheat;
-    border-radius: 8px;
-    display: inline-block;
+    font-family: 'Changa', sans-serif; /* Utiliser la police Changa */
+    font-size: 2rem; /* Taille de la police */
+    color: black; /* Couleur du texte */
+    background-color: darkorange; /* Couleur de fond */
+    padding: 10px 20px; /* Espacement intérieur */
+    border: 2px wheat; /* Contour orange */
+    border-radius: 8px; /* Bord arrondi */
+    display: inline-block; /* Permettre le centrage horizontal */
 }
+
 
 .logo-block {
     display: flex;
@@ -76,11 +78,13 @@ header h1.Title {
     font-size: 2.5rem;
 }
 
+/* Style pour la classe Title */
 .Title {
     font-family: 'Changa', sans-serif;
     font-size: 2rem;
 }
 
+/* Style pour les liens à l'intérieur de la classe Title lorsqu'ils sont survolés */
 .Title a:hover {
     color: black;
     background-color: orange;
@@ -88,11 +92,13 @@ header h1.Title {
     padding: 10px 20px;
 }
 
+/* Style pour les balises p */
 p {
     font-family: 'Lustria', sans-serif;
     font-size: 1rem;
 }
 
+/* Style pour la classe sub_title */
 .sub_title {
     font-family: 'Yantramanav', sans-serif;
     color: orangered;
@@ -118,6 +124,7 @@ main {
     align-items: center;
 }
 
+/* Nav bar */
 nav {
     border-top: 1px solid #ff6600;
     border-bottom: 1px solid #ff6600;
@@ -144,6 +151,7 @@ nav a:hover {
     color: #ff6600;
 }
 
+/* Style pour la classe go_to_checkpoint */
 .go_to_checkpoint {
     display: flex;
     justify-content: space-around;
@@ -161,45 +169,47 @@ nav a:hover {
     margin-right: 15px;
 }
 
+/* Ajout d'une marge pour l'iframe */
 .galery_home_page {
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: wrap; /* Permet de passer à la ligne si nécessaire */
     justify-content: center;
-    gap: 10px;
-    max-width: 90rem;
-    margin: 10px auto;
+    gap: 10px; /* Espace entre les images */
+    max-width: 90rem; /* Largeur maximale de la galerie */
+    margin: 10px auto; /* Centrage horizontal avec marge supérieure */
     padding: 10px;
 }
 
 .image-container {
-    background-color: #fff;
-    border-radius: 8px;
-    padding: 10px;
-    text-align: center;
-    transition: background-color 0.3s ease;
+    background-color: #fff; /* Fond blanc autour de chaque image */
+    border-radius: 8px; /* Arrondir les coins */
+    padding: 10px; /* Espace entre l'image et la bordure */
+    text-align: center; /* Centrage du texte de la citation */
+    transition: background-color 0.3s ease; /* Transition pour le changement de fond */
 }
 
 .image-container:hover {
-    background-color: orange;
+    background-color: orange; /* Fond orange au survol */
 }
 
 .galery_home_page img {
-    max-width: 250px;
-    max-height: 250px;
-    object-fit: contain;
-    border-radius: 5px;
-    border: 2px solid orange;
-    transition: border-color 0.3s ease;
+    max-width: 250px; /* Largeur maximale pour toutes les images */
+    max-height: 250px; /* Hauteur maximale pour toutes les images */
+    object-fit: contain; /* S'assure que l'image est complètement visible */
+    border-radius: 5px; /* Légèrement arrondir les coins des images */
+    border: 2px solid orange; /* Ajoute une bordure orange autour de chaque image */
+    transition: border-color 0.3s ease; /* Transition pour le changement de couleur de la bordure */
 }
 
 .galery_home_page img:hover {
-    border-color: white;
+    border-color: white; /* Bordure blanche au survol */
 }
 
 .image-container p {
-    margin-top: 10px;
+    margin-top: 10px; /* Espace entre l'image et la citation */
 }
 
+/* Style pour la classe go_to_checkpoint */
 .go_to_checkpoint {
     display: flex;
     justify-content: space-around;
@@ -217,12 +227,12 @@ nav a:hover {
     margin-right: 15px;
     display: flex;
     align-items: center;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
+    cursor: pointer; /* Ajoute un curseur pointer au survol */
+    transition: background-color 0.3s ease; /* Transition pour le changement de couleur de fond */
 }
 
 .go_to_checkpoint li:hover {
-    background-color: orange;
+    background-color: orange; /* Fond orange au survol */
 }
 
 .go_to_checkpoint li a {
@@ -230,18 +240,21 @@ nav a:hover {
     color: black;
     font-family: 'Changa', sans-serif;
     font-size: 1rem;
-    margin-left: 10px;
+    margin-left: 10px; /* Espace entre l'image et le texte */
 }
 
 .go_to_checkpoint li::before {
-    content: "";
-    width: 24px;
-    height: 24px;
-    background-image: url('ballon-de-basket.png');
+    content: ""; /* Ajoute un pseudo-élément pour afficher l'image */
+    width: 24px; /* Largeur de l'image */
+    height: 24px; /* Hauteur de l'image */
+    background-image: url('ballon-de-basket.png'); /* Image à afficher */
     background-size: contain;
     background-repeat: no-repeat;
-    margin-right: 10px;
+    margin-right: 10px; /* Espace entre l'image et le texte */
 }
+
+
+/* MOBILE */
 
 @media screen and (max-width: 600px) {
     nav ul{
