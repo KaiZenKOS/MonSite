@@ -12,7 +12,7 @@
     }
 }
 
-* {
+* { /*Pour la fluidité quand je presse un bouton qui permet d'acceder à une section*/
     scroll-behavior: smooth;
 }
 
